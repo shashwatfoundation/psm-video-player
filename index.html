@@ -72,9 +72,9 @@
             currentState = "video1";
             playVideo1();
           } else if (currentState == "video1") {
-            video1.style.visibility = "hidden";
+            video2.style.visibility = "visible";
             setTimeout(() => {
-              video2.style.visibility = "visible";
+              video1.style.visibility = "hidden";
             }, 1000);
             currentState = "video2";
             playVideo2();
